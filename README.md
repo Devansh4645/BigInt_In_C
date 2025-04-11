@@ -13,7 +13,6 @@
 - [Features](#-features)
 - [Algorithms](#-algorithms)
 - [Output](#-output)
-- [Acknowledgements](#-acknowledgements)
 - [References](#-references)
 
 ## 🌟 Introduction
