@@ -95,6 +95,6 @@ The program generates two main output files:
 
 <div align="center">
   
-Made with ❤️ by [Devansh](https://github.com/Devansh4645)
+Made by [Devansh](https://github.com/Devansh4645)
 
 </div>
