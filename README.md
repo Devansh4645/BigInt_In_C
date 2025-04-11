@@ -1,48 +1,109 @@
-1. How to run file?
-   * Just download the file on your device and open main.c
-   * It is a C-programme so it can be run using gcc compiler on any device.
+# 🧮 BigInt Implementation in C
 
-2. What to input?
-   * You will get a proper user prompt on running the main.c file.
+<div align="center">
+  
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-3. What to expect as a result?
-   * According to the operation you will prompt the code will fetch you corresponding results.
+</div>
 
- # BIG INT
+## 📋 Table of Contents
+- [Introduction](#-introduction)
+- [Getting Started](#-getting-started)
+- [Features](#-features)
+- [Algorithms](#-algorithms)
+- [Output](#-output)
+- [Acknowledgements](#-acknowledgements)
+- [References](#-references)
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+## 🌟 Introduction
 
-## Introduction
-This repository contains the code for the implementation of a self-designed data structure called BIGINT. It also includes utility functions for complex numbers and fractions. The primary objective of the project is to find the value of 𝜋 (pi) up to 10000 decimal places using the Chudnovsky algorithm.
+This repository contains an implementation of a self-designed data structure called **BIGINT** in C. The project focuses on high-precision arithmetic operations and includes utility functions for complex numbers and fractions. The primary objective is to calculate the value of π (pi) up to 10000 decimal places using the Chudnovsky algorithm.
 
-## Equations
-The project utilizes the Newton-Raphson method for root convergence and the Chudnovsky algorithm to compute the value of pi. Detailed explanations of these algorithms can be found in the documentation.
+## 🚀 Getting Started
 
-## Functions & Operations
-The repository provides various functions and operations including:
+### Prerequisites
+- GCC compiler
+- Basic understanding of C programming
 
-- Basic Operations on Big Integers: Addition, Subtraction, Multiplication, Division, Decimal Division, Remainder (Modulo), GCD, Power, and Factorial.
-- Operations on Complex Numbers: Addition, Subtraction, Multiplication, Division, and Conjugate.
-- Operations on Fractions: Addition, Subtraction, Multiplication, Division, and Reduction to Simplest Form.
-- Computation of pi: Using the Chudnovsky algorithm.
-- Miscellaneous: Set Decimal Precision and Exit the program.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Devansh4645/BigInt_In_C.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd BigInt_In_C
+   ```
+3. Compile the program:
+   ```bash
+   gcc main.c -o main
+   ```
+4. Run the program:
+   ```bash
+   ./main
+   ```
 
-## Output
-The repository includes an output image demonstrating the program's functionality and accuracy in calculating pi.
+## ✨ Features
 
-![Output Image](Images/Output.png)
+### Big Integer Operations
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+- 🔢 Decimal Division
+- 🔄 Remainder (Modulo)
+- 🔍 GCD
+- ⚡ Power
+- ❗ Factorial
 
-## Tables
-The tables in the documentation showcase the benchmarks for calculating the value of pi and the square root of 10005 with varying levels of precision.
+### Complex Number Operations
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+- 🔄 Conjugate
 
-## Conclusions
-The project successfully implements the BIGINT data structure and performs arithmetic operations on large integers. It also computes the value of pi using the Chudnovsky algorithm up to 10000 decimal places.
+### Fraction Operations
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+- 🔄 Reduction to Simplest Form
 
-## Acknowledgements
-We would like to express our gratitude to our Course Instructor (Dr. Anil Shukla) and Mentor (Avadhesh Gaur) for their guidance and support throughout this project. We also extend our thanks to our parents and friends for their valuable feedback and encouragement.
+## 🔬 Algorithms
 
-## References
-The project references various online sources, including Wikipedia, CP-Algorithms, Algorithmica, and PlanetMath.
+### Newton-Raphson Method
+Used for root convergence calculations.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+### Chudnovsky Algorithm
+Implemented for computing π with high precision.
+
+## 📊 Output
+
+The program generates two main output files:
+- `output_pi.txt`: Contains π calculated to 10000 decimal places
+- `output_sqrt_10005.txt`: Contains the square root of 10005
+
+## 🙏 Acknowledgements
+
+We extend our sincere gratitude to:
+- **Dr. Anil Shukla** (Course Instructor)
+- **Avadhesh Gaur** (Mentor)
+- Our parents and friends for their continuous support and valuable feedback
+
+## 📚 References
+
+- [Wikipedia](https://www.wikipedia.org/)
+- [CP-Algorithms](https://cp-algorithms.com/)
+- [Algorithmica](https://algorithmica.org/)
+- [PlanetMath](https://planetmath.org/)
+
+---
+
+<div align="center">
+  
+Made with ❤️ by [Devansh](https://github.com/Devansh4645)
+
+</div>
