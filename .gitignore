@@ -1,5 +1,3 @@
-echo "*.exe
+*.exe
 *.out
-output_pi.txt
-output_sqrt_10005.txt
-.vscode/" > .gitignore
+.vscode/
