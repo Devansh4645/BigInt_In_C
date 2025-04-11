@@ -86,13 +86,6 @@ The program generates two main output files:
 - `output_pi.txt`: Contains π calculated to 10000 decimal places
 - `output_sqrt_10005.txt`: Contains the square root of 10005
 
-## 🙏 Acknowledgements
-
-We extend our sincere gratitude to:
-- **Dr. Anil Shukla** (Course Instructor)
-- **Avadhesh Gaur** (Mentor)
-- Our parents and friends for their continuous support and valuable feedback
-
 ## 📚 References
 
 - [Wikipedia](https://www.wikipedia.org/)
